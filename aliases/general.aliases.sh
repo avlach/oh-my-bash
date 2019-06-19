@@ -15,16 +15,17 @@
 #   1.  MAKE TERMINAL BETTER
 #   -----------------------------
 
-alias cp='cp -iv'                           # Preferred 'cp' implementation
-alias mv='mv -iv'                           # Preferred 'mv' implementation
-alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
-alias ll='ls -lAFh'                         # Preferred 'ls' implementation
-alias less='less -FSRXc'                    # Preferred 'less' implementation
-alias nano='nano -W'                        # Preferred 'nano' implementation
-alias wget='wget -c'                        # Preferred 'wget' implementation (resume download)
-alias c='clear'                             # c:            Clear terminal display
-alias path='echo -e ${PATH//:/\\n}'         # path:         Echo all executable Paths
-alias show_options='shopt'                  # Show_options: display bash options settings
-alias fix_stty='stty sane'                  # fix_stty:     Restore terminal settings when screwed up
-alias cic='set completion-ignore-case On'   # cic:          Make tab-completion case-insensitive
-alias src='source ~/.bashrc'                # src:          Reload .bashrc file
+alias cp='cp -iv'                               # Preferred 'cp' implementation
+alias mv='mv -iv'                               # Preferred 'mv' implementation
+alias mkdir='mkdir -pv'                         # Preferred 'mkdir' implementation
+alias ll='ls -lAFh --group-directories-first'   # Preferred 'ls' implementation
+alias less='less -FSRXc'                        # Preferred 'less' implementation
+alias nano='nano -W'                            # Preferred 'nano' implementation
+alias wget='wget -c'                            # Preferred 'wget' implementation (resume download)
+alias c='clear'                                 # c:            Clear terminal display
+alias path='echo -e ${PATH//:/\\n}'             # path:         Echo all executable Paths
+alias show_options='shopt'                      # Show_options: display bash options settings
+alias fix_stty='stty sane'                      # fix_stty:     Restore terminal settings when screwed up
+alias cic='set completion-ignore-case On'       # cic:          Make tab-completion case-insensitive
+alias src='source ~/.bashrc'                    # src:          Reload .bashrc file
+ls -lh 
