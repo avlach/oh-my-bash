@@ -18,7 +18,7 @@
 alias cp='cp -iv'                               # Preferred 'cp' implementation
 alias mv='mv -iv'                               # Preferred 'mv' implementation
 alias mkdir='mkdir -pv'                         # Preferred 'mkdir' implementation
-alias ll='ls -lAFh --group-directories-first'   # Preferred 'ls' implementation
+alias ll='ls -lFh --group-directories-first'    # Preferred 'ls' implementation
 alias less='less -FSRXc'                        # Preferred 'less' implementation
 alias nano='nano -W'                            # Preferred 'nano' implementation
 alias wget='wget -c'                            # Preferred 'wget' implementation (resume download)
@@ -28,4 +28,3 @@ alias show_options='shopt'                      # Show_options: display bash opt
 alias fix_stty='stty sane'                      # fix_stty:     Restore terminal settings when screwed up
 alias cic='set completion-ignore-case On'       # cic:          Make tab-completion case-insensitive
 alias src='source ~/.bashrc'                    # src:          Reload .bashrc file
-ls -lh 
